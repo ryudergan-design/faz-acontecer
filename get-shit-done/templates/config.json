@@ -1,0 +1,10 @@
+{
+  "workflowMode": "interactive",
+  "phaseGranularity": "balanced",
+  "parallelization": true,
+  "gitTracking": true,
+  "researchEnabled": true,
+  "planCheckEnabled": true,
+  "verificationEnabled": true,
+  "modelProfile": "balanced"
+}

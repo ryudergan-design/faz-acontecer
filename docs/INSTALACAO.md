@@ -1,17 +1,20 @@
 # Instalacao
 
-Este documento resume a instalacao do GSD oficial em portugues do Brasil.
+Este documento resume como instalar a versao propria do Faz Acontecer e, quando necessario, como recorrer ao GSD oficial.
 
-## Comando principal
+## Comando principal do Faz Acontecer
 
 ```bash
-npx get-shit-done-cc@latest
+npx github:ryudergan-design/faz-acontecer --claude --global
 ```
 
 ## O que o instalador faz
-O instalador oficial pergunta:
-1. qual runtime voce quer usar
-2. se a instalacao sera global ou local
+O instalador do Faz Acontecer:
+1. escolhe o runtime
+2. escolhe entre modo global ou local
+3. permite informar um diretorio customizado
+4. faz backup automatico da configuracao anterior, se ela existir
+5. instala a camada PT-BR diretamente a partir deste repositorio
 
 ## Runtimes suportados
 - Claude Code
@@ -42,25 +45,29 @@ Valor recomendado:
 
 ```bash
 # Claude Code
-npx get-shit-done-cc --claude --global
-npx get-shit-done-cc --claude --local
+npx github:ryudergan-design/faz-acontecer --claude --global
+npx github:ryudergan-design/faz-acontecer --claude --local
 
 # OpenCode
-npx get-shit-done-cc --opencode --global
+npx github:ryudergan-design/faz-acontecer --opencode --global
 
 # Gemini CLI
-npx get-shit-done-cc --gemini --global
+npx github:ryudergan-design/faz-acontecer --gemini --global
 
 # Codex
-npx get-shit-done-cc --codex --global
-npx get-shit-done-cc --codex --local
-
-# Copilot
-npx get-shit-done-cc --copilot --global
-npx get-shit-done-cc --copilot --local
+npx github:ryudergan-design/faz-acontecer --codex --global
+npx github:ryudergan-design/faz-acontecer --codex --local
 
 # Todos os runtimes
-npx get-shit-done-cc --all --global
+npx github:ryudergan-design/faz-acontecer --all --global
+```
+
+## Instalador oficial do GSD
+
+Se a intencao for instalar a versao oficial sem a camada PT-BR do Faz Acontecer:
+
+```bash
+npx get-shit-done-cc@latest
 ```
 
 ## Como verificar se deu certo
@@ -79,15 +86,15 @@ Isso significa que:
 ## Atualizacao
 
 ```bash
-npx get-shit-done-cc@latest
+npx github:ryudergan-design/faz-acontecer --claude --global
 ```
 
 ## Instalacao para desenvolvimento
-Se a ideia for estudar ou adaptar o GSD:
+Se a ideia for estudar ou adaptar o Faz Acontecer:
 
 ```bash
-git clone https://github.com/gsd-build/get-shit-done.git
-cd get-shit-done
+git clone https://github.com/ryudergan-design/faz-acontecer.git
+cd faz-acontecer
 node bin/install.js --claude --local
 ```
 
@@ -112,10 +119,10 @@ Valor recomendado:
 ## Desinstalacao
 
 ```bash
-npx get-shit-done-cc --claude --global --uninstall
-npx get-shit-done-cc --opencode --global --uninstall
-npx get-shit-done-cc --codex --global --uninstall
-npx get-shit-done-cc --copilot --global --uninstall
+npx github:ryudergan-design/faz-acontecer --claude --global --uninstall
+npx github:ryudergan-design/faz-acontecer --opencode --global --uninstall
+npx github:ryudergan-design/faz-acontecer --gemini --global --uninstall
+npx github:ryudergan-design/faz-acontecer --codex --global --uninstall
 ```
 
 ## Proximo passo recomendado

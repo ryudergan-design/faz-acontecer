@@ -35,15 +35,22 @@ Este repositorio foi pensado para:
 - pessoas que desejam adaptar a experiencia para o seu contexto sem perder a espinha dorsal do GSD
 
 ## Instalacao rapida
-O comando oficial continua sendo:
+Para instalar a versao propria do Faz Acontecer, use:
+
+```bash
+npx github:ryudergan-design/faz-acontecer --claude --global
+```
+
+Se voce quiser apenas a referencia original, o comando oficial continua sendo:
 
 ```bash
 npx get-shit-done-cc@latest
 ```
 
-Durante a instalacao, o sistema oficial pede:
+Durante a instalacao do Faz Acontecer, voce pode escolher:
 1. runtime
-2. local de instalacao
+2. modo global ou local
+3. diretorio customizado, se quiser
 
 Runtimes suportados pelo GSD oficial:
 - Claude Code
@@ -57,6 +64,11 @@ Verificacao basica depois da instalacao:
 - OpenCode: `/gsd-help`
 - Codex: `$gsd-help`
 - Copilot: `/gsd:help`
+
+Observacao:
+- o Faz Acontecer instala a camada PT-BR diretamente deste repositorio
+- o GSD oficial continua como referencia estrutural
+- a proposta aqui e praticidade, sem depender da instalacao oficial
 
 ## Comece por aqui
 - [Instalacao](docs/INSTALACAO.md)
@@ -124,6 +136,8 @@ A base ja saiu do nivel puramente documental.
 Ja existe primeira leva concreta de arquivos adaptados em:
 - `.claude/`
 - `.opencode/`
+- `.gemini/`
+- `.codex/`
 
 Fluxos materializados nesta etapa:
 - `new-project`
@@ -137,6 +151,12 @@ Runtimes com fundacao concreta:
 - OpenCode
 - Gemini CLI
 - Codex
+
+Tambem ja existem camadas canonicas reais em:
+- `commands/gsd/`
+- `get-shit-done/`
+- `agents/`
+- `bin/install.js`
 
 ## Direcao desta adaptacao
 Esta base deve evoluir em tres camadas:

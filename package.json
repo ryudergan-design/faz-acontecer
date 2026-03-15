@@ -1,0 +1,52 @@
+{
+  "name": "faz-acontecer-gsd",
+  "version": "0.1.0",
+  "description": "Versao em portugues do ecossistema GSD com adaptacao para Claude Code, OpenCode, Gemini CLI e Codex.",
+  "bin": {
+    "faz-acontecer-gsd": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "commands",
+    "get-shit-done",
+    "agents",
+    "scripts",
+    ".claude",
+    ".opencode",
+    ".gemini",
+    ".codex",
+    "README.md",
+    "docs"
+  ],
+  "keywords": [
+    "gsd",
+    "pt-br",
+    "claude-code",
+    "opencode",
+    "gemini-cli",
+    "codex",
+    "context-engineering",
+    "spec-driven-development"
+  ],
+  "author": "Jeferson Conceicao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryudergan-design/faz-acontecer.git"
+  },
+  "homepage": "https://github.com/ryudergan-design/faz-acontecer",
+  "bugs": {
+    "url": "https://github.com/ryudergan-design/faz-acontecer/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install:claude:global": "node bin/install.js --claude --global",
+    "install:claude:local": "node bin/install.js --claude --local",
+    "install:opencode:global": "node bin/install.js --opencode --global",
+    "install:gemini:global": "node bin/install.js --gemini --global",
+    "install:codex:global": "node bin/install.js --codex --global",
+    "install:all:global": "node bin/install.js --all --global"
+  }
+}
