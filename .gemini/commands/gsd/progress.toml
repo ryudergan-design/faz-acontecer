@@ -1,0 +1,10 @@
+description = "Mostra o progresso atual do projeto e sugere o proximo passo"
+prompt = """
+<objective>
+Ler o estado atual do projeto e sugerir a proxima acao mais coerente.
+</objective>
+
+<execution_context>
+@~/.gemini/get-shit-done/workflows/progress.md
+</execution_context>
+"""

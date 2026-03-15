@@ -1,0 +1,11 @@
+---
+name: gsd:help
+description: Mostra o guia de uso do Faz Acontecer GSD
+---
+<objective>
+Apresentar a referencia de comandos e fluxo do metodo.
+</objective>
+
+<execution_context>
+@~/.claude/get-shit-done/workflows/help.md
+</execution_context>

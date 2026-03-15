@@ -1,6 +1,6 @@
 # Comandos
 
-Resumo dos comandos principais do GSD oficial.
+Resumo dos comandos principais do Faz Acontecer GSD.
 
 ## Workflow principal
 
@@ -28,10 +28,20 @@ O que faz:
 - paraleliza quando possivel
 - fecha com verificacao
 
+Diferencial do Faz Acontecer:
+- linguagem em portugues
+- foco em rastreabilidade
+- reforco de boas praticas durante a execucao
+
 ### `/gsd:verify-work [N]`
 O que faz:
 - valida o que foi entregue
 - guia a revisao humana
+
+### `/gsd:validate-phase [N]`
+O que faz:
+- audita a qualidade final de uma fase
+- compara contexto, plano e executado
 
 ## Navegacao e apoio
 
@@ -39,13 +49,25 @@ O que faz:
 O que faz:
 - mostra em que ponto o projeto esta
 
+Diferencial:
+- sugere o proximo passo de forma mais didatica
+
 ### `/gsd:help`
 O que faz:
 - lista comandos e guia de uso
 
+### `/gsd:settings`
+O que faz:
+- configura comportamento do metodo
+- grava preferencias em `config.json`
+
+### `/gsd:quick`
+O que faz:
+- resolve tarefa pequena com a disciplina do metodo
+
 ### `/gsd:update`
 O que faz:
-- atualiza o GSD
+- atualiza o Faz Acontecer GSD
 
 ## Brownfield
 
@@ -53,6 +75,10 @@ O que faz:
 O que faz:
 - analisa base de codigo ja existente
 - prepara o GSD para projeto que nao nasceu do zero
+
+Diferencial:
+- ajuda bastante em brownfield
+- gera base melhor para auditoria e continuidade
 
 ## Gerenciamento de fases
 
@@ -80,10 +106,6 @@ O que faz:
 
 ## Utilitarios
 
-### `/gsd:settings`
-O que faz:
-- configura perfil do modelo e opcoes do fluxo
-
 ### `/gsd:set-profile <profile>`
 O que faz:
 - troca o perfil de qualidade, equilibrio ou custo
@@ -103,6 +125,13 @@ O que faz:
 ### `/gsd:quick`
 O que faz:
 - executa tarefa rapida com garantias do GSD
+
+## Diferenciais gerais do Faz Acontecer
+- comandos e respostas em portugues
+- camada transversal de qualidade
+- documentacao viva mais clara
+- organizacao de projeto mais amigavel
+- base preparada para auditoria, continuidade e governanca
 
 ## Comandos por runtime
 

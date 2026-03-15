@@ -1,0 +1,10 @@
+description = "Configura o comportamento do workflow no projeto atual"
+prompt = """
+<objective>
+Configurar preferencias do metodo em portugues e registrar em `config.json`.
+</objective>
+
+<execution_context>
+@~/.gemini/get-shit-done/workflows/settings.md
+</execution_context>
+"""

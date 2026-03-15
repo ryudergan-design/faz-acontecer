@@ -95,6 +95,7 @@ Observacao:
 - [Runtime Codex](docs/RUNTIME-CODEX.md)
 - [Estrategia para Gemini e Codex](docs/ESTRATEGIA-GEMINI-E-CODEX.md)
 - [Estado da cobertura canonica](docs/ESTADO-DA-COBERTURA-CANONICA.md)
+- [Resumo do Faz Acontecer GSD](docs/RESUMO-DO-FAZ-ACONTECER-GSD.md)
 
 ## Estrutura desta base
 - `docs/`
