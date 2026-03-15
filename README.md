@@ -37,13 +37,20 @@ Este repositorio foi pensado para:
 Para instalar a versao propria do Faz Acontecer, use:
 
 ```bash
-npx github:ryudergan-design/faz-acontecer --claude --global
+npx faz-acontecer-gsd@latest --claude --global
 ```
 
 Durante a instalacao do Faz Acontecer, voce pode escolher:
 1. runtime
 2. modo global ou local
 3. diretorio customizado, se quiser
+
+Tambem existe uso global depois de instalar o pacote:
+
+```bash
+npm install -g faz-acontecer-gsd
+faz-acontecer --all --global
+```
 
 Runtimes suportados pelo Faz Acontecer:
 - Claude Code
@@ -59,6 +66,15 @@ Verificacao basica depois da instalacao:
 Observacao:
 - o Faz Acontecer instala a camada PT-BR diretamente deste repositorio
 - a proposta aqui e tratar isso como nosso GSD, com instalacao e operacao proprias
+
+## Distribuicao npm
+O pacote preparado para distribuicao e:
+- `faz-acontecer-gsd`
+
+Formas de uso:
+- `npx faz-acontecer-gsd@latest --claude --global`
+- `npm install -g faz-acontecer-gsd`
+- `faz-acontecer --all --global`
 
 ## Comece por aqui
 - [Instalacao](docs/INSTALACAO.md)
@@ -96,6 +112,7 @@ Observacao:
 - [Estrategia para Gemini e Codex](docs/ESTRATEGIA-GEMINI-E-CODEX.md)
 - [Estado da cobertura canonica](docs/ESTADO-DA-COBERTURA-CANONICA.md)
 - [Resumo do Faz Acontecer GSD](docs/RESUMO-DO-FAZ-ACONTECER-GSD.md)
+- [Publicacao no npm](docs/PUBLICACAO-NPM.md)
 
 ## Estrutura desta base
 - `docs/`

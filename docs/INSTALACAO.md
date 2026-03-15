@@ -5,7 +5,7 @@ Este documento resume como instalar a versao propria do Faz Acontecer.
 ## Comando principal do Faz Acontecer
 
 ```bash
-npx github:ryudergan-design/faz-acontecer --claude --global
+npx faz-acontecer-gsd@latest --claude --global
 ```
 
 ## O que o instalador faz
@@ -45,21 +45,37 @@ Valor recomendado:
 
 ```bash
 # Claude Code
-npx github:ryudergan-design/faz-acontecer --claude --global
-npx github:ryudergan-design/faz-acontecer --claude --local
+npx faz-acontecer-gsd@latest --claude --global
+npx faz-acontecer-gsd@latest --claude --local
 
 # OpenCode
-npx github:ryudergan-design/faz-acontecer --opencode --global
+npx faz-acontecer-gsd@latest --opencode --global
 
 # Gemini CLI
-npx github:ryudergan-design/faz-acontecer --gemini --global
+npx faz-acontecer-gsd@latest --gemini --global
 
 # Codex
-npx github:ryudergan-design/faz-acontecer --codex --global
-npx github:ryudergan-design/faz-acontecer --codex --local
+npx faz-acontecer-gsd@latest --codex --global
+npx faz-acontecer-gsd@latest --codex --local
 
 # Todos os runtimes
-npx github:ryudergan-design/faz-acontecer --all --global
+npx faz-acontecer-gsd@latest --all --global
+```
+
+## Instalacao global do binario
+
+```bash
+npm install -g faz-acontecer-gsd
+```
+
+Depois disso, voce pode usar:
+
+```bash
+faz-acontecer --claude --global
+faz-acontecer --opencode --global
+faz-acontecer --gemini --global
+faz-acontecer --codex --global
+faz-acontecer --all --global
 ```
 
 ## Como verificar se deu certo
@@ -78,7 +94,7 @@ Isso significa que:
 ## Atualizacao
 
 ```bash
-npx github:ryudergan-design/faz-acontecer --claude --global
+npx faz-acontecer-gsd@latest --claude --global
 ```
 
 ## Instalacao para desenvolvimento
@@ -111,10 +127,10 @@ Valor recomendado:
 ## Desinstalacao
 
 ```bash
-npx github:ryudergan-design/faz-acontecer --claude --global --uninstall
-npx github:ryudergan-design/faz-acontecer --opencode --global --uninstall
-npx github:ryudergan-design/faz-acontecer --gemini --global --uninstall
-npx github:ryudergan-design/faz-acontecer --codex --global --uninstall
+npx faz-acontecer-gsd@latest --claude --global --uninstall
+npx faz-acontecer-gsd@latest --opencode --global --uninstall
+npx faz-acontecer-gsd@latest --gemini --global --uninstall
+npx faz-acontecer-gsd@latest --codex --global --uninstall
 ```
 
 ## Proximo passo recomendado

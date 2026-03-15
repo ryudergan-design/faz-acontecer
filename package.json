@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Versao em portugues do ecossistema GSD com adaptacao para Claude Code, OpenCode, Gemini CLI e Codex.",
   "bin": {
-    "faz-acontecer-gsd": "bin/install.js"
+    "faz-acontecer-gsd": "bin/install.js",
+    "faz-acontecer": "bin/install.js"
   },
   "files": [
     "bin",
@@ -42,14 +43,19 @@
   "engines": {
     "node": ">=18"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build:hooks": "node scripts/build-hooks.js",
     "test": "node scripts/run-tests.cjs",
+    "pack:check": "npm pack --dry-run",
     "install:claude:global": "node bin/install.js --claude --global",
     "install:claude:local": "node bin/install.js --claude --local",
     "install:opencode:global": "node bin/install.js --opencode --global",
     "install:gemini:global": "node bin/install.js --gemini --global",
     "install:codex:global": "node bin/install.js --codex --global",
-    "install:all:global": "node bin/install.js --all --global"
+    "install:all:global": "node bin/install.js --all --global",
+    "publish:npm": "npm publish --access public"
   }
 }
