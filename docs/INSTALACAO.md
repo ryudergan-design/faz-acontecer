@@ -1,6 +1,6 @@
 # Instalacao
 
-Este documento resume como instalar a versao propria do Faz Acontecer e, quando necessario, como recorrer ao GSD oficial.
+Este documento resume como instalar a versao propria do Faz Acontecer.
 
 ## Comando principal do Faz Acontecer
 
@@ -60,14 +60,6 @@ npx github:ryudergan-design/faz-acontecer --codex --local
 
 # Todos os runtimes
 npx github:ryudergan-design/faz-acontecer --all --global
-```
-
-## Instalador oficial do GSD
-
-Se a intencao for instalar a versao oficial sem a camada PT-BR do Faz Acontecer:
-
-```bash
-npx get-shit-done-cc@latest
 ```
 
 ## Como verificar se deu certo

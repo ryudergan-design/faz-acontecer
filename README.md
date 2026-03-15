@@ -1,23 +1,22 @@
 # Faz Acontecer
 
-Uma base em portugues para estudar, documentar e adaptar o ecossistema do **GSD - Get Shit Done** sem quebrar o fluxo essencial do projeto oficial.
+Uma distribuicao em portugues do **GSD - Get Shit Done**, com instalador proprio, camada transversal de qualidade e adaptacao nativa para Claude Code, OpenCode, Gemini CLI e Codex.
 
-Este repositorio nasceu a partir de um commit inicial simples no GitHub e evolui aqui como uma variavel em portugues do GSD, focada em onboarding, entendimento estrutural e adaptacao por runtime.
+O Faz Acontecer funciona como um GSD completo:
+- com onboarding em portugues
+- com instalacao propria
+- com comandos, workflows, templates e agents em PT-BR
+- com agregadores de boas praticas
+- com foco em documentacao, auditoria e organizacao desde o inicio
 
-Este repositorio nao substitui o GSD oficial.
-Ele funciona como:
-- referencia em portugues do fluxo
-- base de instalacao e onboarding
-- ponto de partida para melhorias de processo
-- camada de adaptacao para Claude Code, OpenCode, Gemini CLI e Codex
-
-## Referencia oficial
-- Repositorio oficial: `https://github.com/gsd-build/get-shit-done`
+## Origem estrutural
+- A base conceitual nasceu do ecossistema GSD: `https://github.com/gsd-build/get-shit-done`
+- O Faz Acontecer segue como sistema proprio, com narrativa, instalacao e guias proprios
 
 ## O que este repositorio busca fazer
 - explicar o GSD em portugues do Brasil
 - manter nomes tecnicos e identificadores essenciais em ingles
-- preservar o fluxo oficial sempre que ele for estrutural
+- preservar a espinha dorsal estrutural que torna o GSD forte
 - adicionar boas praticas de documentacao, auditoria e organizacao
 - preparar uma base para evolucoes futuras sem descaracterizar o sistema original
 
@@ -41,34 +40,25 @@ Para instalar a versao propria do Faz Acontecer, use:
 npx github:ryudergan-design/faz-acontecer --claude --global
 ```
 
-Se voce quiser apenas a referencia original, o comando oficial continua sendo:
-
-```bash
-npx get-shit-done-cc@latest
-```
-
 Durante a instalacao do Faz Acontecer, voce pode escolher:
 1. runtime
 2. modo global ou local
 3. diretorio customizado, se quiser
 
-Runtimes suportados pelo GSD oficial:
+Runtimes suportados pelo Faz Acontecer:
 - Claude Code
 - OpenCode
 - Gemini CLI
 - Codex
-- Copilot
 
 Verificacao basica depois da instalacao:
 - Claude Code / Gemini CLI: `/gsd:help`
 - OpenCode: `/gsd-help`
 - Codex: `$gsd-help`
-- Copilot: `/gsd:help`
 
 Observacao:
 - o Faz Acontecer instala a camada PT-BR diretamente deste repositorio
-- o GSD oficial continua como referencia estrutural
-- a proposta aqui e praticidade, sem depender da instalacao oficial
+- a proposta aqui e tratar isso como nosso GSD, com instalacao e operacao proprias
 
 ## Comece por aqui
 - [Instalacao](docs/INSTALACAO.md)
@@ -104,14 +94,15 @@ Observacao:
 - [Runtime Gemini CLI](docs/RUNTIME-GEMINI-CLI.md)
 - [Runtime Codex](docs/RUNTIME-CODEX.md)
 - [Estrategia para Gemini e Codex](docs/ESTRATEGIA-GEMINI-E-CODEX.md)
+- [Estado da cobertura canonica](docs/ESTADO-DA-COBERTURA-CANONICA.md)
 
 ## Estrutura desta base
 - `docs/`
   Documentacao em portugues.
 - `commands/`
-  Espaco para mapear e documentar comandos do ecossistema GSD.
+  Camada canonica dos comandos do Faz Acontecer.
 - `agents/`
-  Espaco para documentar ou adaptar agentes.
+  Camada canonica dos agents do Faz Acontecer.
 - `hooks/`
   Espaco para documentar integracoes e automacoes do fluxo.
 - `scripts/`
@@ -121,13 +112,13 @@ Observacao:
 - `assets/`
   Imagens e material visual de apoio.
 - `.claude/`
-  Espelho estrutural da futura adaptacao para Claude Code.
+  Distribuicao do Faz Acontecer para Claude Code.
 - `.opencode/`
-  Espelho estrutural da futura adaptacao para OpenCode.
+  Distribuicao do Faz Acontecer para OpenCode.
 - `.gemini/`
-  Espelho estrutural da futura adaptacao para Gemini CLI.
+  Distribuicao do Faz Acontecer para Gemini CLI.
 - `.codex/`
-  Espelho estrutural da futura adaptacao para Codex.
+  Distribuicao do Faz Acontecer para Codex.
 
 ## Estado da adaptacao pratica
 
@@ -176,7 +167,7 @@ Acoplar guias de:
 Melhorar a experiencia sem quebrar:
 - nomes oficiais
 - semantica do fluxo
-- entendimento que o GSD oficial espera
+- compatibilidade conceitual entre runtimes
 
 ## Proximo passo recomendado
 Leia [Instalacao](docs/INSTALACAO.md) e [Fluxo do GSD](docs/FLUXO-GSD.md) primeiro.

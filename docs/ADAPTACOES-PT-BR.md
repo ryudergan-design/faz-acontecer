@@ -1,16 +1,16 @@
 # Adaptacoes PT-BR
 
-Este documento define a direcao da adaptacao em portugues do ecossistema GSD.
+Este documento define a direcao do Faz Acontecer GSD em portugues.
 
 ## Objetivo
-Melhorar a experiencia de uso sem quebrar o que e essencial no GSD oficial.
+Oferecer um GSD completo em portugues, mantendo a espinha dorsal estrutural que faz o metodo funcionar.
 
 ## O que sera preservado
 - nomes dos comandos
 - nomes dos arquivos centrais
 - estrutura conceitual do fluxo
 - semantica de fases, planos, verificacao e milestones
-- compatibilidade mental com a documentacao oficial
+- compatibilidade conceitual entre runtimes e fluxos
 
 ## O que sera melhorado
 - perguntas em portugues
@@ -39,10 +39,10 @@ Mas identificadores tecnicos que fazem parte do sistema podem e devem permanecer
 
 ## Evolucao recomendada
 Esta base pode crescer em trilhas como:
-- traducao completa da documentacao essencial
-- guias por runtime
-- exemplos de projeto novo
-- adaptacao de prompts e skills auxiliares
+- ampliacao do instalador proprio
+- enriquecimento dos agents
+- ampliacao dos comandos canonicos
+- hooks e scripts nativos
 - melhoria dos arquivos iniciais gerados em novos projetos
 
 ## Proximo passo recomendado

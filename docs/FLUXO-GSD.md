@@ -1,6 +1,6 @@
 # Fluxo do GSD
 
-Este documento resume o fluxo principal do GSD oficial, em portugues, mantendo os identificadores essenciais em ingles.
+Este documento resume o fluxo principal do Faz Acontecer GSD, em portugues, mantendo os identificadores essenciais em ingles.
 
 ## Visao geral
 O GSD organiza o trabalho em um ciclo de:
@@ -124,17 +124,20 @@ O GSD reduz degradacao de contexto porque:
 - commits atomicos
 - memoria do projeto em arquivos
 
-## O que esta adaptacao quer preservar
+## O que o Faz Acontecer quer preservar
 - comandos oficiais
 - fluxo principal
 - nomes dos arquivos centrais
 - logica de fases e milestones
 
-## O que esta adaptacao quer melhorar
+## O que o Faz Acontecer agrega
 - explicacao em portugues
 - onboarding mais claro
 - boas praticas nativas de documentacao
 - auditoria e organizacao como parte mais natural do uso
+- camada transversal de qualidade
+- instalacao propria
+- estrutura pronta para registro visual e governanca do projeto
 
 ## Proximo passo recomendado
 Leia [COMANDOS.md](COMANDOS.md).
