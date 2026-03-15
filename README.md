@@ -2,6 +2,8 @@
 
 Uma base em portugues para estudar, documentar e adaptar o ecossistema do **GSD - Get Shit Done** sem quebrar o fluxo essencial do projeto oficial.
 
+Este repositorio nasceu a partir de um commit inicial simples no GitHub e evolui aqui como uma variavel em portugues do GSD, focada em onboarding, entendimento estrutural e adaptacao por runtime.
+
 Este repositorio nao substitui o GSD oficial.
 Ele funciona como:
 - referencia em portugues do fluxo
