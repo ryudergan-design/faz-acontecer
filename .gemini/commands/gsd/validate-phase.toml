@@ -1,0 +1,14 @@
+description = "Audita retroativamente as lacunas de validação de uma fase concluída"
+prompt = """
+<objective>
+Auditar a cobertura de validação de uma fase concluída e preencher lacunas de qualidade.
+</objective>
+
+<execution_context>
+@~/.gemini/get-shit-done/workflows/validate-phase.md
+</execution_context>
+
+<process>
+Execute o workflow `validate-phase`.
+</process>
+"""

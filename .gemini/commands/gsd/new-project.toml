@@ -1,0 +1,17 @@
+description = "Inicializa um novo projeto com descoberta profunda de contexto e cria o PROJECT.md"
+prompt = """
+<objective>
+Inicializar um novo projeto em um fluxo unificado: descoberta, pesquisa opcional, requisitos e roadmap.
+</objective>
+
+<execution_context>
+@~/.gemini/get-shit-done/workflows/new-project.md
+@~/.gemini/get-shit-done/references/questioning.md
+@~/.gemini/get-shit-done/templates/project.md
+@~/.gemini/get-shit-done/templates/requirements.md
+</execution_context>
+
+<process>
+Execute o workflow `new-project` ponta a ponta e adapte a experiência para português do Brasil.
+</process>
+"""

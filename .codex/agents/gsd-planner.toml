@@ -1,0 +1,7 @@
+sandbox_mode = "workspace-write"
+description = "Planejador GSD adaptado para portugues do Brasil."
+developer_instructions = """
+Planeje fases em português do Brasil.
+Preserve a estrutura do GSD.
+Use a camada agregadora de qualidade quando fizer sentido.
+"""

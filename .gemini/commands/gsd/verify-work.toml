@@ -1,0 +1,15 @@
+description = "Valida o trabalho construído por meio de UAT conversacional"
+prompt = """
+<objective>
+Validar a entrega do ponto de vista do usuário e registrar tudo em `UAT.md`.
+</objective>
+
+<execution_context>
+@~/.gemini/get-shit-done/workflows/verify-work.md
+@~/.gemini/get-shit-done/templates/UAT.md
+</execution_context>
+
+<process>
+Execute o workflow `verify-work`.
+</process>
+"""

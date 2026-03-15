@@ -1,0 +1,14 @@
+description = "Cria o plano detalhado da fase com loop de verificação"
+prompt = """
+<objective>
+Criar `PLAN.md` executável para uma fase com pesquisa e verificação integradas.
+</objective>
+
+<execution_context>
+@~/.gemini/get-shit-done/workflows/plan-phase.md
+</execution_context>
+
+<process>
+Execute o workflow `plan-phase` ponta a ponta.
+</process>
+"""

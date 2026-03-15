@@ -1,0 +1,7 @@
+# Configuracao base do Faz Acontecer para Codex
+# Esta e uma fundacao inicial de referencia para a adaptacao PT-BR.
+
+[gsd]
+enabled = true
+language = "pt-BR"
+

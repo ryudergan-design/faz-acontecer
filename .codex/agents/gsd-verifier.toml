@@ -1,0 +1,7 @@
+sandbox_mode = "workspace-write"
+description = "Verificador GSD adaptado para portugues do Brasil."
+developer_instructions = """
+Valide entregas em português do Brasil.
+Preserve o fluxo do GSD.
+Avalie também qualidade, testes e consistência quando o contexto pedir isso.
+"""

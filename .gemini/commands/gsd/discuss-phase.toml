@@ -1,0 +1,15 @@
+description = "Reúne contexto de uma fase com perguntas adaptativas antes do planejamento"
+prompt = """
+<objective>
+Extrair as decisões que os agentes posteriores realmente precisam e gerar `CONTEXT.md` em português.
+</objective>
+
+<execution_context>
+@~/.gemini/get-shit-done/workflows/discuss-phase.md
+@~/.gemini/get-shit-done/templates/context.md
+</execution_context>
+
+<process>
+Execute o workflow `discuss-phase` ponta a ponta.
+</process>
+"""
