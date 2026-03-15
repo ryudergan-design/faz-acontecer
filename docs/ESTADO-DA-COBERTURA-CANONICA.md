@@ -70,7 +70,16 @@ Este documento registra o quanto da estrutura central do Faz Acontecer ja foi ma
 - `gsd-ui-auditor`
 - `gsd-ui-checker`
 
+### Hooks nativos
+- `gsd-statusline.js`
+- `gsd-context-monitor.js`
+- `gsd-check-update.js`
+
+### Scripts nativos
+- `build-hooks.js`
+- `run-tests.cjs`
+
 ## Proximo aprofundamento recomendado
-- ampliar mais comandos alem do nucleo principal
-- enriquecer o conteudo operacional dos agents
-- criar hooks e scripts nativos do Faz Acontecer
+- enriquecer mais os comandos alem da camada resumida
+- ampliar comportamento operacional dos hooks
+- expandir testes reais do Faz Acontecer

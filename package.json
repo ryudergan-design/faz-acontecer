@@ -10,6 +10,7 @@
     "commands",
     "get-shit-done",
     "agents",
+    "hooks",
     "scripts",
     ".claude",
     ".opencode",
@@ -42,6 +43,8 @@
     "node": ">=18"
   },
   "scripts": {
+    "build:hooks": "node scripts/build-hooks.js",
+    "test": "node scripts/run-tests.cjs",
     "install:claude:global": "node bin/install.js --claude --global",
     "install:claude:local": "node bin/install.js --claude --local",
     "install:opencode:global": "node bin/install.js --opencode --global",
